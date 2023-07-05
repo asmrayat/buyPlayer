@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy player</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body class="bg-dark">
+
+
+    <!-- <header class="row bg-dark">
+    
+        <div class="container col-3" >
+
+            <img class="img-fluid" src="top_logo.png " alt="">
+
+        </div>
+        <div class="container col-6" >
+            <h1 class="text-center text-white mt-5">Buy player</h1>
+        </div>
+        <div class="container col-3" >
+            <img class="img-fluid" src="top_logo2.png " alt="">
+
+        </div>
+
+    </header> -->
+    
+    <div class="container d-flex justify-content-between mt-5">
+        <div class="col-9 row row-cols-1 row-cols-md-3 g-5">
+            <div class="col ">
+              <div class="card h-200  bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://www.aljazeera.com/wp-content/uploads/2021/06/2021-06-28T220439Z_2107545029_UP1EH6S1PBPB2_RTRMADP_3_SOCCER-EURO-FRA-SWI-REPORT.jpg?resize=770%2C513&quality=80" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_1_name" class="card-title text-white">Mbappe</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_1" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-200   bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article26957029.ece/ALTERNATES/s810/0_GettyImages-1467970697.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_2_name" class="card-title text-white">Neymar JR</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_2" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-200   bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-06/230607-lionel-messi-jm-1554-24c14d.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_3_name" class="card-title text-white">Lionel Messi</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_3" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-200   bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://diariodeportes.com.co/wp-content/uploads/2022/06/Vitor-Machado-Ferreira-Vitinha-cerca-del-PSG.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_4_name" class="card-title text-white">Vítor Machado</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_4" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-200   bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://www.psg.fr/media/241672/_aur5925_1ac49fb9-ea49-4431-b61a-56f51ec280cb.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_5_name" class="card-title text-white">Sergio Ramos</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_5" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-200   bg-black border border-white" >
+                <img class="img-fluid" style="max-height: 200px;"  src="https://romapress.net/wp-content/uploads/2023/07/renato-sanches-768x512.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 id="player_6_name" class="card-title text-white">Renato Sanches</h5>
+                  <div class="text-white">
+                  <p class="card-text d-inline">36 Goals</p>
+                   <p class="card-text d-inline">120 Assist</p>
+                  </div>
+                  <button id="player_6" type="button" class="btn btn-primary mt-3">Select</button>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="col-3 text-white text-center">
+            <div class="col-12 bg-black w-100 ps-2 pe-2 p-3">
+              <h2>Selected-V</h2>
+              <ol id="list">
+                
+              </ol> 
+            </div>
+
+            <div class="col-12 bg-black w-100 ps-2 pe-2 mt-2">
+              <h2 class="p-3">Budget</h2>
+              
+              <div class="d-flex justify-content-between m-2">
+                <p >Pre Player</p>
+                <input id="player_amount" class="form-control  w-50  ms-3 bg-black text-white" type="number">
+              </div>
+              <button id="calculate" type="button" class="btn btn-primary w-75 mt-2">Calculate</button>
+
+              <div class="d-flex justify-content-between m-2">
+                <p >Player Expenses</p>
+                <p >$<span id="playerExpn">0</span></p>
+                
+              </div>
+              <div class="d-flex justify-content-between m-2">
+                <p>Manager</p>
+                <input id="manager" class="form-control  w-50  ms-3 bg-black text-white" type="number">
+              </div>
+              <div class="d-flex justify-content-between m-2">
+                <p >Coach</p>
+                <input id="coach" class="form-control  w-50  ms-3 bg-black text-white" type="number">
+              </div>
+              <button id="calcTotal" type="button" class="btn btn-primary w-75 mt-2">Calcutate Total</button>
+
+              <div class="d-flex justify-content-between m-2 mt-5">
+                <p >Total</p>
+                <p >$<span id="total">0</span></p>
+                
+              </div>
+            </div>
+            
+
+          </div>
+
+  
+    </div>
+
+
+
+    <footer>
+      <hr class="mb-5" style="height:2px;border-width:0;color:gray;background-color:white">
+
+      <h5 class="text-white text-center mb-3">Copyright © 2022 All Right Reserved</h5>
+    </footer>
+
+
+
+    
+
+    <script src="player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
